@@ -17,12 +17,12 @@
 <label for="gender">Choose your gender</label><br />
 <input type="radio" name="gender" value="female">Female<br />
 <input type="radio" name="gender" value="male">Male<br />
-<input type="submit" name="btnSend" value="Send">
+<input type="submit" name="btnSend" value="Send"><br />
 
 <label for="status">Choose your status</label><br />
 <input type="radio" name="status" value="student">Student<br />
 <input type="radio" name="status" value="teacher">Teacher<br />
-<input type="submit" name="btnSend" value="Send">
+<input type="submit" name="btnSend" value="Send"><br />
 </form>
 
 <?php
