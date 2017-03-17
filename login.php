@@ -13,9 +13,13 @@
     </table>
 </form>
 <?php
+    session_start() ;
+
     $btn=$_POST['btnLogin'];
+
     if(isset($btn))
     {
+        $_SESSION['username']=$_POST['user'] ;
         echo 'Hello '.$_POST['user'];
     }
 ?>
