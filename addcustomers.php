@@ -10,9 +10,7 @@
     <label for="ad">Streetaddress</label><br />
     <input type="text" name="ad" id="ad" value=""><br />
 
-    <input type="submit" name="btnAdd" value="Add">
-        
+    <input type="submit" name="btnAdd" value="Add">        
 </form>
-
 
 <?php include "footer.php"; ?>
