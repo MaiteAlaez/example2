@@ -2,7 +2,7 @@
 
 <h2>Edit customers</h2>
 
-<form class="" action="updateAllCustomers.php" method="posr">
+<form class="" action="updateallcustomers.php" method="post">
     <table border="0">
     <tr>
     <th>Firstname</th><th>Lastname</th><th>Streetaddress</th>
