@@ -2,7 +2,7 @@
 
 <h2>Add Customer</h2>
 
-<form class="" action="customers.php" method="post">
+<form class="" action="insertcustomers.php" method="post">
     <label for="fn">Firstname</label><br />
     <input type="text" name="fn" id="fn" value="" required=""><br />
     <label for="ln">Lastname</label><br />
@@ -12,5 +12,7 @@
 
     <input type="submit" name="btnAdd" value="Add">        
 </form>
+
+
 
 <?php include "footer.php"; ?>
